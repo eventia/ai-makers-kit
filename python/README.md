@@ -20,6 +20,9 @@ client key를 먼저 발급 받아야 합니다.
 
 INSTALL ...
 
+	$ sudo apt-get update
+	$ sudo apt-get upgrade
+
     $ sudo apt-get install libasound-dev
     $ sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
     $ sudo apt-get install python-pip
@@ -31,7 +34,7 @@ INSTALL ...
 
 SET YOUR CLIENT KEY INFORMATION,
 
-    $ vi gkit.config
+    $ nano gkit.config
     
 아래 정보를 기가지니 포털에서 발급 받은 클라이언트 키 정보로 업데이트 하세요.
         
@@ -40,6 +43,8 @@ SET YOUR CLIENT KEY INFORMATION,
     clientkey: YOUR_CLIENT_KEY
     clientsecret: YOUR_CLIENT_SECRET
 
+clidenid, clientkey, clientsecret 을 ex1_kw.. 부터 ex6_qu...py 까지 내부에 수정, 추가	
+	
 and RUN !!!
 
     $ python main_demo.py
