@@ -3,6 +3,7 @@ GiGA Genie AI Makers Kit을 이용하기 위한 Python 소스 코드입니다.
 # Prerequisites
 
 Python 2.x, 3.x를 지원하며 아래 Python 라이브러리 추가 설치가 필요합니다.
+현재 2.7 에서 작동
 
 * gRPC
 * PyAudio
