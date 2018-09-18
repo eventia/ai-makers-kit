@@ -6,3 +6,5 @@ Python 설치
 
 # PyCharm 설치
 
+# MegaGenie
+
